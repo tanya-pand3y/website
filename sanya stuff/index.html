@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="icon" href="assets/images/icon.png">
+    <meta name="keywords" content="Sanya Chawla">
+    <meta name="author" content="Sanya Chawla">
+    <meta name="description" content="Hi there, I'm Sanya! Check out my website to learn more about me and my projects :)">
+    <meta name="google-site-verification" content="-MmsQzddD7zOZ_ygVWGnFu32Ce8Oa5tTT6RAsQb1xcA" />
+    
+    <meta property="og:site_name" content="Sanya Chawla" />
+    <meta property="og:title" content="Creating change through design and technology."/>
+    <meta
+      property="og:description"
+      content="Hi there, I'm Sanya! Check out my website to learn more about me and my projects :)"
+    />
+    <meta property="og:image" content="assets/images/Screen Shot 2021-09-18 at 12.43.44 PM.png" />
+    <meta property="og:type" content="personal website" />
+    <meta property="og:url" content="httpa://sanyachawla.com/" />
+
+
+    <title>Sanya Chawla</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <img src={logo} alt="1Kit Logo" />
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="portfolio.html" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li> 
+                    <li class="nav__item">
+                        <a href="assets/pdf/Resume - Sanya Chawla.pdf" target = "_blank" class="nav__link">
+                            <i class="uil uil-file-info-alt nav__icon"></i> Resume
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li> 
+                    
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="uil uil-graduation-cap nav__icon"></i> Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Work
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li> -->
+                </ul>
+                <i class="uil uil-times nav__close" id = "nav-close"></i> 
+            </div>
+
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/sanyachaw1a/" target = "_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="mailto: sanyachawla75@gmail.com" target = "_blank" class="home__social-icon">
+                            <i class="uil uil-at"></i>
+                        </a>
+                        <a href="https://github.com/sanyachaw1a" target = "_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M55.1,-66.2C69.6,-53.5,78.3,-34.4,81.6,-14.5C85,5.4,83,26,73.9,43.7C64.9,61.3,48.9,75.9,30,83C11.1,90.2,-10.8,89.9,-30.7,83.2C-50.6,76.4,-68.5,63.2,-78.1,45.6C-87.6,28,-88.9,6,-84.8,-14.6C-80.8,-35.3,-71.5,-54.7,-56.5,-67.3C-41.5,-80,-20.7,-85.8,-0.2,-85.5C20.3,-85.3,40.6,-78.9,55.1,-66.2Z" transform="translate(100 100)"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M55.1,-66.2C69.6,-53.5,78.3,-34.4,81.6,-14.5C85,5.4,83,26,73.9,43.7C64.9,61.3,48.9,75.9,30,83C11.1,90.2,-10.8,89.9,-30.7,83.2C-50.6,76.4,-68.5,63.2,-78.1,45.6C-87.6,28,-88.9,6,-84.8,-14.6C-80.8,-35.3,-71.5,-54.7,-56.5,-67.3C-41.5,-80,-20.7,-85.8,-0.2,-85.5C20.3,-85.3,40.6,-78.9,55.1,-66.2Z" transform="translate(100 100)"/>
+                                <image class="home__blob-img" x = '12' y = '0' xlink:href="assets/images/mephoto.png"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi there, I'm Sanya!</h1>
+                        <h3 class="home__subtitle">Designing Change Through Technology</h3>
+                        <p class="home__description">CS @ University of Toronto</p>
+                        <a href="assets/pdf/Resume - Sanya Chawla.pdf" target = "_blank" class="button button--flex">View Resume
+                            <i class="uil uil-file-info-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#portfolio-page" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i> 
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio-page">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most Recent Projects</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/images/Petbnb.png" alt="" class=" portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">PetBnb App Design</h3>
+                            <p class="portfolio__description">
+                                With Petbnb, you can find the closest available pet sitters in your area or host any pet that you would like for a weekend. Created a full prototype of the app using Figma. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/images/EcoKidz.png" alt="" class="portfolio portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">EcoKidz App Design</h3>
+                            <p class="portfolio__description">
+                                EcoKidz is an interactive educational app that teaches the youth about the importance of waste managment and encourages them to take action. Created a full prototype of the app using Figma. 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <a href="portfolio.html" class="button button--flex button--small portfolio__button">
+                    View Portfolio
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                
+                <div class="swiper-button-next">
+                </div>
+                <div class="swiper-button-prev">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/images/about.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hello there, I'm Sanya - a senior at International School Manila! Indian by descent, I have spent my life in Indonesia and the Philippines. Throughout my childhood, I have always been interested in technology and design. When I discovered UX Design I immediately fell in love with it as it was the perfect blend of my two passions. Through my work, I hope to ignite change and showcase different perspectives of life! 
+                    </p>
+
+
+                    <div class="about__buttons">
+                        <a href="assets/pdf/Resume - Sanya Chawla.pdf" target = "_blank" class="button button--flex">View Resume
+                            <i class="uil uil-file-info-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">What I Know</span>
+
+            <div class="skills_container container grid">
+                <div>
+                    
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">
+                                    Coding and Development
+                                </h1>
+                                <span class="skills__subtitle">5+ years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">Swift</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__swift"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-vector-square skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">
+                                    Design
+                                </h1>
+                                <span class="skills__subtitle">2+ years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">Adobe Illustrator</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__illustrator"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="subskills__title">
+                                    <h3 class="skills__name">Adobe XD</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__xd"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    
+                    </div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-mobile-android skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">
+                                    Social Media Managment
+                                </h1>
+                                <span class="skills__subtitle">3+ years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+    
+                            <div class="skills__data">
+                                <div class="softskills__title">
+                                    <h3 class="softskills__name">Girls Will Code</h3>
+                                    <span class="softskills__description">@girlswillcode</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="softskills__title">
+                                    <h3 class="softskills__name">She Leads Forward</h3>
+                                    <span class="softskills__description">@sheleadsforward</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="softskills__title">
+                                    <h3 class="softskills__name">Change Starts With Ux</h3>
+                                    <span class="softskills__description">@changewithux</span>
+                                </div>
+                                
+                            </div>
+
+                        
+                        </div>
+                    
+                    </div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-users-alt skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">
+                                    Work Experience & Leadership
+                                </h1>
+                                <span class="skills__subtitle">4+ years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+    
+                            <div class="skills__data">
+                                <div class="softskills__title">
+                                    <h3 class="softskills__name">Front-End Development</h3>
+                                    <span class="softskills__description">Front-end feveloper for UofT's Machine Intelligence Team and the non-profit, International Association of Human Values Ph</span>
+
+                                  
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="softskills__title">
+
+                                    <h3 class="softskills__name">Managment</h3>
+                                    <span class="softskills__description">President of Girls Will Code, She Leads Forward, School's STEM Club</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="softskills__title">
+                                    <h3 class="softskills__name">Organizational Capabilities</h3>
+                                    <span class="softskills__description">Pulling people together to organize events of 250+ attendees</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="softskills__title">
+                                    <h3 class="softskills__name">Service</h3>
+                                    <span class="softskills__description">Helped various groups in my community by hosting donation drives</span>
+                                </div>
+                            </div>
+
+                        
+                        </div>
+                    
+                    </div>
+
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification section" id="education">
+            <h2 class="section__title">Education</h2>
+            <span class="section__subtitle">My Personal Journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content">
+                        <div class="qualification__data">
+                            
+
+                            <div>
+                                <h3 class="qualification__title"> Bachelor's Degree | Computer Science</h3>
+                                <span class="qualification__subtitle">
+                                    University of Toronto, St. George Campus 
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022-2026
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">High School | IB Diploma</h3>
+                                <span class="qualification__subtitle">
+                                    International School Manila 
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018-2022
+                                </div>
+
+                                
+                            </div>    
+                            
+                            
+
+                        </div>
+                        <div class="qualification__data">
+
+                            <div>
+                                <h3 class="qualification__title">IOS Development and UX Design Bootcamp</h3>
+                                <span class="qualification__subtitle">
+                                    Hikre School
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="section__title">Work</h2>
+            <span class="section__subtitle">What I Do</span>
+
+            <div class="work__container container grid">
+                <div class="work__content">
+                    <div>
+                        <i class="uil uil-web-grid work__icon"></i>
+                        <h3 class="work__title">UI/UX <br> Designer</h3>
+                    </div>                  
+                </div>
+                <div class="work__content">
+                    <div>
+                        <i class="uil uil-arrow work__icon"></i>
+                        <h3 class="work__title">Full-Stack <br> Developer  </h3>
+                    </div>
+                </div>
+                <div class="work__content">
+                    <div>
+                        <i class="uil uil-icons work__icon"></i>
+                        <h3 class="work__title">Software <br> Engineer</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact</h2>
+            <span class="section__subtitle">Have Questions? Send an email!</span>
+            <div class="contact__buttons">
+                <a href="mailto: sanyachawla75@gmail.com" class="button button-flex">
+                    Get in Touch<i class="uil uil-message button__icon"></i> 
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Sanya</h1>
+                    <span class="footer__subtitle">Developer + Designer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="index.html" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="assets/pdf/Resume - Sanya Chawla.pdf" class="footer__link">Resume</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://m.facebook.com/sanyachaw1a" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i></a>
+
+                    <a href="https://www.instagram.com/sanyachaw1a/" target = "_blank" class="footer__social"><i class="uil uil-instagram"></i></a>
+
+                    <a href="https://twitter.com/sanyachaw1a" target = "_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169 Sanya Chawla. All rights reserved</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
